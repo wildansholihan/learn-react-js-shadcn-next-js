@@ -14,7 +14,7 @@ export default function Home() {
       <AccordionItem value="item-1">
         <AccordionTrigger>Is it accessible?</AccordionTrigger>
           <AccordionContent>
-            Yes. It ddfdfdfff to the WAI-ARIA design pattern.
+            Yes. It ddfdfdfffdfd to the WAI-ARIA design pattern.
           </AccordionContent>
       </AccordionItem>
     </Accordion>
