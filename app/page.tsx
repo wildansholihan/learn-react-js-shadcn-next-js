@@ -1,24 +1,10 @@
 import Image from "next/image";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
-
+import MyAccordion from "@/components/myComponents/shadCn/myAccordion";
 
 export default function Home() {
   return (
-    <>  
-    <Accordion type="single" collapsible className="w-full max-w-[400px]">
-      <AccordionItem value="item-1">
-        <AccordionTrigger>Is it accessible?</AccordionTrigger>
-          <AccordionContent>
-            Yes. It ddfdfdfffdfd to the WAI-ARIA design pattern.
-          </AccordionContent>
-      </AccordionItem>
-    </Accordion>
-
+    <>
+    <MyAccordion className="flex justify-end items-start min-h-screen border-20 border-pink-500 text-[30px]" />
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
